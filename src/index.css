@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import '~antd/dist/antd.css';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control
+{
+    width: 350px;
+}
+.img-messenger{
+  height: 100px;
+  width: 100px;
+}
+.App{
+    text-align: center;
+}
+.form-app{
+    position: fixed;
+    background-color: #e9e9eb;
+    margin:20px;
+    padding:20px;
+    bottom: 0;
+    z-index: 1;
+    width:90%;
+}
+.appform_control{
+    display: flex!important;
+    flex-direction: row!important;
+}
+.app_input{
+    flex:1;
+}
+.app_IconButton{
+    flex:0;
 }
